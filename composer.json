@@ -1,0 +1,26 @@
+{
+  "name": "codicc/sinave-adapter",
+  "description": "CoDiCC for SINAVE (Portuguese Reporting system)",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Estevão Soares dos Santos",
+      "email": "estevao.santos@dgs.min-saude.pt"
+    }
+  ],
+  "require": {
+    "codicc/sinave-schemas": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/CoDiCC/sinave-schemas"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "CoDiCC\\SinaveAdapter\\": "src/"
+    }
+  }
+}

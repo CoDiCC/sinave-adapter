@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ec414d8c2fd955e4817484d5d887110f",
+    "packages": [
+        {
+            "name": "codicc/sinave-schemas",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/CoDiCC/sinave-schemas.git",
+                "reference": "f14146673b098c8402af928b7f6d8247e35bcb60"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/CoDiCC/sinave-schemas/zipball/f14146673b098c8402af928b7f6d8247e35bcb60",
+                "reference": "f14146673b098c8402af928b7f6d8247e35bcb60",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6.3",
+                "symfony/yaml": "^3.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "CoDiCC\\SinaveSchema\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Estevão Soares dos Santos",
+                    "email": "estevao.santos@dgs.min-saude.pt"
+                }
+            ],
+            "description": "A collection of schemas that represent the data structure of cases from SINAVE (PT Reporting System)",
+            "support": {
+                "source": "https://github.com/CoDiCC/sinave-schemas/tree/master",
+                "issues": "https://github.com/CoDiCC/sinave-schemas/issues"
+            },
+            "time": "2017-09-29T15:53:10+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "codicc/sinave-schemas": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
